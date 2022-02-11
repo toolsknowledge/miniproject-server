@@ -83,9 +83,6 @@ app.get("/products",[middleware],(req,res)=>{
 });
 
 
-app.get("/demo",(req,res)=>{
-    res.send({"message":"welcome to CI/CD process"});
-});
 
 
 

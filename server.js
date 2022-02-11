@@ -83,6 +83,12 @@ app.get("/products",[middleware],(req,res)=>{
 });
 
 
+app.get("/demo",(req,res)=>{
+    res.send({"message":"welcome to CI/CD process"});
+});
+
+
+
 
 //assign the port number
 app.listen(8080,()=>{
